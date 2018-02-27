@@ -1,0 +1,9 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		link(href='../public/css/profile.css' rel='stylesheet')
+	body
+		form.logout-form(action='/' method='post')
+			h1 welcome! {{username}}, {{email}}
+			input(type='submit' value='logout')

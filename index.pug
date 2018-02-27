@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		link(href='../public/css/index.css' rel='stylesheet')
+		title registration page
+	body
+		form.signup-form(action='/profile' method='post')
+			h2 Signup form
+			input.user-email(type='email' name='email' placeholder='input email')
+			p
+			input.user-password(type='password' name='password' placeholder='input username')
+			p
+			input.user-signup(type='submit' value='signup')
+
+		p s
+		p s
+		p s
+		p s
+		p 
+
+		form.login-form(action='/profile' method='post')
+			h2 Login form
+			input.user-email(type='email' name='email' placeholder='input email')
+			p
+			input.user-password(type='password' name='password' placeholder='input username')
+			p
+			input.user-login(type='submit' value='login')
