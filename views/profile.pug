@@ -5,5 +5,5 @@ html
 		link(href='../public/css/profile.css' rel='stylesheet')
 	body
 		form.logout-form(action='/' method='post')
-			h1 welcome! {{username}}, {{email}}
+			h1 welcome! #{username}, #{email}
 			input(type='submit' value='logout')
